@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+* main - this is the main put function
+*Retrun: 0 (success)
+**/
+int main(void)
+{
+put("\"programming is like building a multilingual puzzle");
+return (0);
+}
