@@ -16,7 +16,7 @@ putchar(n);
 putchar(m);
 if (n != 58 || m != 57)
 {
-putchar('.');
+putchar(',');
 putchar(' ');
 }
 }
