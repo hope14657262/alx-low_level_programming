@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - this is the function of task 6
+ * main - this is the function of task three
  * Return: always 0
  */
 int main(void)
 {
 int i;
-for(i = 48; i < 58; i++)
+for (i = 48; i < 58; i++)
 {
 putchar(i);
 }
