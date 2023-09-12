@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - this is the function of task 7
  * Return: always 0
