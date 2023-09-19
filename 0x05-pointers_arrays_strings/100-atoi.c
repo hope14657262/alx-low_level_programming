@@ -28,6 +28,6 @@ break;
 }
 c++;
 }
-ni += min;
+ni *= min;
 return (ni);
 }
