@@ -2,7 +2,7 @@
 /**
  * _strncat - concatenates two strings
  * @dest: value one
- * @char: value two
+ * @src: value two
  * @n: value three
  * Return: alyaws 0
  */
@@ -18,7 +18,7 @@ i++;
 j = 0;
 while (j < n && src[j] != '\0')
 {
-dest[i] =src[j];
+dest[i] = src[j];
 i++;
 j++;
 }
