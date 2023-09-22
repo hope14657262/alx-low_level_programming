@@ -2,17 +2,18 @@
 /**
  * reverse_array - reverses content array of integers.
  * @a: array of reverse task
- * @n: number of array elements 
+ * @n: number of array elements
  * Return: viod
  */
 void reverse_array(int *a, int n)
 {
-int i;
-int t;
-for (i = 0; i < n--; i++)
+int i = 0, temp;
+n = n - 1;
+for (i = 0; i < n; i++)
 {
-t = a[i];
+temp = a[i];
 a[i] = a[n];
-a[n] = t;
+a[n] = temp;
+n--;
 }
 }
