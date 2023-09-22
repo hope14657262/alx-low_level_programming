@@ -2,7 +2,7 @@
 /**
  * leet - encodes a string into 1337
  * @n: encodes a string
- * Return: alyaws 0
+ * Return: n  value
  */
 char *leet(char *n)
 {
@@ -19,5 +19,5 @@ n[i] = s2[j];
 }
 }
 }
-return (0);
+return (n);
 }
