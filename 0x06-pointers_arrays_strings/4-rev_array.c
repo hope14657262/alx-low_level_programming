@@ -3,7 +3,7 @@
  * reverse_array - reverses content array of integers.
  * @a: array of reverse task
  * @n: number of array elements 
- * Return: alyaws 0
+ * Return: viod
  */
 void reverse_array(int *a, int n)
 {
