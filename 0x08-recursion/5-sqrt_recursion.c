@@ -23,6 +23,6 @@ int sqrt = i * i;
 if (sqrt > n)
 return (-1);
 if (sqrt == n)
-return (1);
+return (i);
 return (_sqrt(n, i + 1));
 }
