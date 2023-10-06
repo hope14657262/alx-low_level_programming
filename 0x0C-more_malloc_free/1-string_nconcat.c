@@ -30,13 +30,13 @@ str = malloc(sizeof(char) * l + 1);
 if (str == NULL)
 return (NULL);
 k = 0;
-while (j <= i)
+while (j < l)
 {
 if (j <= i)
 str[j] = s1[j];
 if (j >= i)
 {
-str[j] = s2[j];
+str[j] = s2[k];
 k++;
 }
 j++;
