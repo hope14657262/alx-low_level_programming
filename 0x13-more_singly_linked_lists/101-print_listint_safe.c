@@ -5,7 +5,7 @@
  * @head: the head pointer
  * Return: nothig
  */
-void free_listp(listp_t**head)
+void free_listp(listp_t **head)
 {
 listp_t *temp;
 listp_t *curr;
@@ -27,8 +27,8 @@ free(temp);
  */
 size_t print_listint_safe(const listint_t *head)
 {
-sixe_t nodes = 0;
-listp_t *hptr, *name, *new, *add;
+size_t nnodes = 0;
+listp_t *hptr, *new, *add;
 hptr = NULL;
 while (head != NULL)
 {
@@ -53,6 +53,6 @@ printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
 nnodes++;
 }
-free_lisp(&hptr);
+free_listp(&hptr);
 return (nnodes);
 }
